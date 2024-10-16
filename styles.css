@@ -1,0 +1,99 @@
+/* LESS Document */
+body {
+  font-family: "neue-haas-unica", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+main {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+section {
+  flex-basis: 100%;
+  padding: 2em;
+  box-sizing: border-box;
+  color: #0d0033;
+}
+section a {
+  color: #0d0033;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+p {
+  margin-bottom: .5em;
+  font-size: 1em;
+  max-width: 40em;
+}
+h1 {
+  font-family: astloch, 'sans-serif';
+  font-weight: normal;
+  font-size: 5em;
+  line-height: .9em;
+  color: #fff;
+  margin: .3em 0 0.5em;
+}
+h1 span {
+  color: #1f1847;
+}
+h2 {
+  font-size: 1.15em;
+  margin-bottom: .3em;
+}
+h3 {
+  font-size: 1.15em;
+  margin-bottom: .7em;
+}
+#introduction {
+  background-color: #b985e0;
+  padding-right: 4em;
+}
+#introduction h2,
+#introduction p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+#about-me {
+  background-color: #c8a5da;
+}
+#my-work {
+  background-color: #643a71;
+  color: #ffffff;
+}
+#my-work a {
+  color: #ffffff;
+}
+#my-writing {
+  background-color: #dfd7d1;
+  color: #1f1947;
+}
+@media screen and (min-width: 820px) and (min-height: 700px) {
+  section {
+    flex-basis: 50%;
+    height: 50vh;
+  }
+  #about-me,
+  #my-work,
+  #my-writing {
+    padding-top: 2.8em;
+  }
+}
+@media screen and (min-width: 1220px) and (max-width: 1999px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  body {
+    font-size: 18px;
+  }
+}
